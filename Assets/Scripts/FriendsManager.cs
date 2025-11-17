@@ -27,7 +27,7 @@ public class FriendsManager : MonoBehaviour
        // InitializeFriends();
         sendFriendRequest.onClick.AddListener(() => AddFriendByName());
         showFriends.onClick.AddListener(() => ShowFriends());
-        showIncomingFriends.onClick.AddListener(() => ShowIncoming());
+       // showIncomingFriends.onClick.AddListener(() => ShowIncoming());
         State.onClick.AddListener(() => SetAvailability(Availability.Busy));
     }
 
